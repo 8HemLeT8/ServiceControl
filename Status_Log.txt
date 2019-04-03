@@ -1,0 +1,199 @@
+________________________________________________________________________________________________________
+Check time: 2019-04-01 17:40:59.626740
+________________________________________________________________________________________________________
+- Check time: 2019-04-01 17:30:59.615818
++ Check time: 2019-04-01 17:40:59.623741
+- Service:Client License Service (ClipSVC)| Status: Running
++ Service:Client License Service (ClipSVC)| Status: Paused
+- Service:Windows Update| Status: Running
++ Service:Windows Update| Status: Paused
+
+________________________________________________________________________________________________________
+Check time: 2019-04-01 17:40:59.633741
+________________________________________________________________________________________________________
+- Check time: 2019-04-01 17:40:59.623741
++ Check time: 2019-04-01 17:40:59.630756
+
+________________________________________________________________________________________________________
+Check time: 2019-04-01 17:50:59.645248
+________________________________________________________________________________________________________
+- Check time: 2019-04-01 17:40:59.630756
++ Check time: 2019-04-01 17:50:59.640241
+- Service:Client License Service (ClipSVC)| Status: Paused
++ Service:Client License Service (ClipSVC)| Status: Running
+
+________________________________________________________________________________________________________
+Check time: 2019-04-01 17:50:59.652224
+________________________________________________________________________________________________________
+- Check time: 2019-04-01 17:50:59.640241
++ Check time: 2019-04-01 17:50:59.649227
+
+________________________________________________________________________________________________________
+Check time: 2019-04-01 18:09:56.689712
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-01 18:11:46.074127
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-01 18:14:51.277283
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+Check time: 2019-04-01 19:20:16.367177
+________________________________________________________________________________________________________
+- Check time: 2019-04-01 17:50:59.640241
++ Check time: 2019-04-01 19:20:16.364179
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 11:35:55
+________________________________________________________________________________________________________
+- Check time: 2019-04-01 17:50:59.640241
++ Check time: 2019-04-02 11:35:55
+- Service:Adobe Genuine Monitor Service| Status: Running
+- Service:Adobe Genuine Software Integrity Service| Status: Running
++ Service:Adobe Genuine Software Integrity Service| Status: Running
++ Service:Adobe Genuine Monitor Service| Status: Running
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 13:11:11
+________________________________________________________________________________________________________
+- Check time: 2019-04-02 11:35:55
++ Check time: 2019-04-02 13:11:11
+- Service:Client License Service (ClipSVC)| Status: Running
++ Service:Client License Service (ClipSVC)| Status: Paused
+- Service:Data Sharing Service| Status: Paused
++ Service:Data Sharing Service| Status: Running
+- Service:Group Policy Client| Status: Paused
++ Service:Group Policy Client| Status: Running
+- Service:Windows Time| Status: Paused
++ Service:Windows Time| Status: Running
+- Service:Windows Update| Status: Paused
++ Service:Windows Update| Status: Running
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 13:11:11
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 18:21:09
+________________________________________________________________________________________________________
+- Check time: 2019-04-02 13:11:11
++ Check time: 2019-04-02 18:21:09
+- Service:Client License Service (ClipSVC)| Status: Paused
++ Service:Client License Service (ClipSVC)| Status: Running
+- Service:Microsoft Software Shadow Copy Provider| Status: Paused
++ Service:Microsoft Software Shadow Copy Provider| Status: Running
+- Service:Diagnostic System Host| Status: Paused
++ Service:Diagnostic System Host| Status: Running
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 18:31:09
+________________________________________________________________________________________________________
+- Check time: 2019-04-02 18:21:09
++ Check time: 2019-04-02 18:31:09
+- Service:Client License Service (ClipSVC)| Status: Running
++ Service:Client License Service (ClipSVC)| Status: Paused
+- Service:Microsoft Software Shadow Copy Provider| Status: Running
++ Service:Microsoft Software Shadow Copy Provider| Status: Paused
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 18:31:09
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 20:32:11
+________________________________________________________________________________________________________
+- Check time: 2019-04-02 18:31:09
++ Check time: 2019-04-02 20:32:11
+- Service:Windows Image Acquisition (WIA)| Status: Running
+- Service:Windows Update| Status: Running
++ Service:Windows Update| Status: Paused
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 20:32:11
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 20:42:11
+________________________________________________________________________________________________________
+- Check time: 2019-04-02 20:32:11
++ Check time: 2019-04-02 20:42:11
+- Service:Client License Service (ClipSVC)| Status: Paused
++ Service:Client License Service (ClipSVC)| Status: Running
++ Service:Windows Image Acquisition (WIA)| Status: Running
+- Service:Diagnostic System Host| Status: Running
++ Service:Diagnostic System Host| Status: Paused
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 20:42:11
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 20:52:11
+________________________________________________________________________________________________________
+- Check time: 2019-04-02 20:42:11
++ Check time: 2019-04-02 20:52:11
+- Service:Group Policy Client| Status: Running
++ Service:Group Policy Client| Status: Paused
+- Service:Windows Time| Status: Running
++ Service:Windows Time| Status: Paused
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 20:52:11
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 21:02:11
+________________________________________________________________________________________________________
+- Check time: 2019-04-02 20:52:11
++ Check time: 2019-04-02 21:02:11
+- Service:Windows Update| Status: Paused
++ Service:Windows Update| Status: Running
+
+________________________________________________________________________________________________________
+Check time: 2019-04-02 21:02:11
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-03 13:58:51
+________________________________________________________________________________________________________
+- Check time: 2019-04-02 21:02:11
++ Check time: 2019-04-03 13:58:51
+- Service:Client License Service (ClipSVC)| Status: Running
++ Service:Client License Service (ClipSVC)| Status: Paused
+- Service:Group Policy Client| Status: Paused
++ Service:Group Policy Client| Status: Running
+- Service:Diagnostic System Host| Status: Paused
++ Service:Diagnostic System Host| Status: Running
+
+________________________________________________________________________________________________________
+Check time: 2019-04-03 13:58:51
+________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________
+Check time: 2019-04-03 15:00:13
+________________________________________________________________________________________________________
+- Check time: 2019-04-03 13:58:51
++ Check time: 2019-04-03 15:00:12
+- Service:Client License Service (ClipSVC)| Status: Paused
++ Service:Client License Service (ClipSVC)| Status: Running
+- Service:Optimize drives| Status: Paused
++ Service:Optimize drives| Status: Running
+- Service:Network Setup Service| Status: Paused
++ Service:Network Setup Service| Status: Running
+- Service:Microsoft Software Shadow Copy Provider| Status: Paused
++ Service:Microsoft Software Shadow Copy Provider| Status: Running
+- Service:Volume Shadow Copy| Status: Paused
++ Service:Volume Shadow Copy| Status: Running
+- Service:Windows Time| Status: Paused
++ Service:Windows Time| Status: Running
+- Service:Portable Device Enumerator Service| Status: Paused
++ Service:Portable Device Enumerator Service| Status: Running
+
+________________________________________________________________________________________________________
+Check time: 2019-04-03 15:00:13
+________________________________________________________________________________________________________
+- Check time: 2019-04-03 15:00:12
++ Check time: 2019-04-03 15:00:13
+
