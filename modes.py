@@ -1,17 +1,30 @@
+
 from getServices import *
 import time
 from fileHandler import *
 import os
+from threads import *
+
 
 class monitor:
     def monitorState(x):
+        myThread=inputThread()
+        myThread.start()
         if(os.name=='nt'):
-                while 1:
+
+                while myThread.is_alive:
+
+                        print("???")
                         WinServices.ListServices("new.txt","w")
                         fileHandler.detectChanges("new.txt","old.txt",True)
-                        time.sleep(x)
+                        while x>0:
+                                if myThread.is_alive==False:
+                                        return
+                                time.sleep(1)
+                                x-=1
                         WinServices.ListServices("old.txt","w")
                         fileHandler.detectChanges("old.txt","new.txt",True)
+        
         if(os.name=='posix'):
             print("Linuxxx")
                 
@@ -32,10 +45,10 @@ class manual:
         flag2=False
         for i in range(len(arr)):
                 if arr[i].__contains__(datetime1):
-                        print(arr[i],file=open("file1.txt","w"))
+                        print(arr[i], file=open("file1.txt","w"))
                         flag1=True
                 if arr[i].__contains__(datetime2):
-                        print(arr[i],file=open("file2.txt","w"))
+                        print(arr[i], file=open("file2.txt","w"))
                         flag2=True
         if flag1==False:
                 print("No data for the first DateTime!")

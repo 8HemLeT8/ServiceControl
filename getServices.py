@@ -56,7 +56,7 @@ class lnxServices:
             try:
                 cmd = open(os.path.join('/proc', pid, 'cmdline'), 'rb').read()
                 if cmd.find('smtpd') != -1:
-                    print "PID: %s; Command: %s" % (pid, cmd)
+                    print ("PID: %s; Command: %s" % (pid, cmd))
             # process has already terminated
             except IOError:
                 continue

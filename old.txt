@@ -1,7 +1,9 @@
 ________________________________________________________________________________________________________
-Check time: 2019-04-03 15:00:12
+Check time: 2019-04-03 14:03:16
 ________________________________________________________________________________________________________
 Service:Adobe Acrobat Update Service| Status: Running
+Service:Adobe Genuine Monitor Service| Status: Running
+Service:Adobe Genuine Software Integrity Service| Status: Running
 Service:AllJoyn Router Service| Status: Paused
 Service:Application Layer Gateway Service| Status: Paused
 Service:AMD External Events Utility| Status: Running
@@ -19,23 +21,23 @@ Service:AvastWscReporter| Status: Paused
 Service:ActiveX Installer (AxInstSV)| Status: Paused
 Service:BitLocker Drive Encryption Service| Status: Paused
 Service:Base Filtering Engine| Status: Running
-Service:Background Intelligent Transfer Service| Status: Running
+Service:Background Intelligent Transfer Service| Status: Paused
 Service:Background Tasks Infrastructure Service| Status: Running
 Service:Computer Browser| Status: Paused
 Service:Bluetooth Audio Gateway Service| Status: Paused
-Service:AVCTP service| Status: Running
+Service:AVCTP service| Status: Paused
 Service:Bluetooth Support Service| Status: Paused
 Service:Capability Access Manager Service| Status: Running
 Service:Connected Devices Platform Service| Status: Running
 Service:Certificate Propagation| Status: Paused
 Service:שירות 'לחץ והפעל' של Microsoft Office| Status: Running
-Service:Client License Service (ClipSVC)| Status: Running
+Service:Client License Service (ClipSVC)| Status: Paused
 Service:COM+ System Application| Status: Paused
 Service:CoreMessaging| Status: Running
 Service:Intel(R) Content Protection HECI Service| Status: Paused
 Service:Cryptographic Services| Status: Running
 Service:DCOM Server Process Launcher| Status: Running
-Service:Optimize drives| Status: Running
+Service:Optimize drives| Status: Paused
 Service:Device Association Service| Status: Running
 Service:Device Install Service| Status: Paused
 Service:DevQuery Background Discovery Broker| Status: Paused
@@ -50,7 +52,7 @@ Service:Delivery Optimization| Status: Running
 Service:Wired AutoConfig| Status: Paused
 Service:Diagnostic Policy Service| Status: Running
 Service:Device Setup Manager| Status: Paused
-Service:Data Sharing Service| Status: Running
+Service:Data Sharing Service| Status: Paused
 Service:DTS APO Service| Status: Running
 Service:Data Usage| Status: Running
 Service:Extensible Authentication Protocol| Status: Paused
@@ -71,7 +73,7 @@ Service:Windows Camera Frame Server| Status: Paused
 Service:GFNEX Service| Status: Running
 Service:Google Chrome Elevation Service| Status: Paused
 Service:GoPro Device Detection Service| Status: Running
-Service:Group Policy Client| Status: Running
+Service:Group Policy Client| Status: Paused
 Service:GraphicsPerfSvc| Status: Paused
 Service:Google Update Service (gupdate)| Status: Paused
 Service:Google Update Service (gupdatem)| Status: Paused
@@ -92,7 +94,7 @@ Service:CNG Key Isolation| Status: Running
 Service:KtmRm for Distributed Transaction Coordinator| Status: Paused
 Service:Server| Status: Running
 Service:Workstation| Status: Running
-Service:Geolocation Service| Status: Running
+Service:Geolocation Service| Status: Paused
 Service:Windows License Manager Service| Status: Running
 Service:Link-Layer Topology Discovery Mapper| Status: Paused
 Service:TCP/IP NetBIOS Helper| Status: Running
@@ -114,7 +116,7 @@ Service:Network Connected Devices Auto-Setup| Status: Paused
 Service:Netlogon| Status: Paused
 Service:Network Connections| Status: Paused
 Service:Network List Service| Status: Running
-Service:Network Setup Service| Status: Running
+Service:Network Setup Service| Status: Paused
 Service:Net.Tcp Port Sharing Service| Status: Paused
 Service:Microsoft Passport Container| Status: Running
 Service:Microsoft Passport| Status: Running
@@ -184,7 +186,7 @@ Service:Steam Client Service| Status: Paused
 Service:Windows Image Acquisition (WIA)| Status: Running
 Service:Storage Service| Status: Running
 Service:Spot Verifier| Status: Paused
-Service:Microsoft Software Shadow Copy Provider| Status: Running
+Service:Microsoft Software Shadow Copy Provider| Status: Paused
 Service:SynTPEnh Caller Service| Status: Running
 Service:Superfetch| Status: Running
 Service:System Events Broker| Status: Running
@@ -220,8 +222,8 @@ Service:Hyper-V Guest Shutdown Service| Status: Paused
 Service:Hyper-V Time Synchronization Service| Status: Paused
 Service:Hyper-V PowerShell Direct Service| Status: Paused
 Service:Hyper-V Volume Shadow Copy Requestor| Status: Paused
-Service:Volume Shadow Copy| Status: Running
-Service:Windows Time| Status: Running
+Service:Volume Shadow Copy| Status: Paused
+Service:Windows Time| Status: Paused
 Service:Windows Update Medic Service| Status: Paused
 Service:WalletService| Status: Paused
 Service:WarpJITSvc| Status: Paused
@@ -230,7 +232,7 @@ Service:Windows Biometric Service| Status: Paused
 Service:Windows Connection Manager| Status: Running
 Service:Windows Connect Now - Config Registrar| Status: Paused
 Service:Diagnostic Service Host| Status: Running
-Service:Diagnostic System Host| Status: Running
+Service:Diagnostic System Host| Status: Paused
 Service:Windows Defender Antivirus Network Inspection Service| Status: Paused
 Service:WebClient| Status: Paused
 Service:Windows Event Collector| Status: Paused
@@ -252,11 +254,11 @@ Service:WMI Performance Adapter| Status: Paused
 Service:Windows Media Player Network Sharing Service| Status: Running
 Service:Work Folders| Status: Paused
 Service:Parental Controls| Status: Paused
-Service:Portable Device Enumerator Service| Status: Running
+Service:Portable Device Enumerator Service| Status: Paused
 Service:Windows Push Notifications System Service| Status: Running
 Service:Security Center| Status: Running
 Service:Windows Search| Status: Running
-Service:Windows Update| Status: Running
+Service:Windows Update| Status: Paused
 Service:WWAN AutoConfig| Status: Paused
 Service:Xbox Game Monitoring| Status: Paused
 Service:Xbox Live Auth Manager| Status: Paused
@@ -264,17 +266,15 @@ Service:Xbox Live Game Save| Status: Paused
 Service:Xbox Accessory Management Service| Status: Paused
 Service:Xbox Live Networking Service| Status: Paused
 Service:Intel(R) PROSet/Wireless Zero Configuration Service| Status: Running
-Service:BcastDVRUserService_2d89b| Status: Paused
-Service:BluetoothUserService_2d89b| Status: Paused
-Service:CDPUserSvc_2d89b| Status: Running
-Service:DevicePickerUserSvc_2d89b| Status: Paused
-Service:DevicesFlowUserSvc_2d89b| Status: Paused
-Service:MessagingService_2d89b| Status: Paused
-Service:OneSyncSvc_2d89b| Status: Running
-Service:PimIndexMaintenanceSvc_2d89b| Status: Running
-Service:PrintWorkflowUserSvc_2d89b| Status: Paused
-Service:UnistoreSvc_2d89b| Status: Running
-Service:UserDataSvc_2d89b| Status: Running
-Service:WpnUserService_2d89b| Status: Running
-Service:Adobe Genuine Software Integrity Service| Status: Running
-Service:Adobe Genuine Monitor Service| Status: Running
+Service:BcastDVRUserService_2c24c| Status: Paused
+Service:BluetoothUserService_2c24c| Status: Paused
+Service:CDPUserSvc_2c24c| Status: Running
+Service:DevicePickerUserSvc_2c24c| Status: Paused
+Service:DevicesFlowUserSvc_2c24c| Status: Paused
+Service:MessagingService_2c24c| Status: Paused
+Service:OneSyncSvc_2c24c| Status: Running
+Service:PimIndexMaintenanceSvc_2c24c| Status: Running
+Service:PrintWorkflowUserSvc_2c24c| Status: Paused
+Service:UnistoreSvc_2c24c| Status: Running
+Service:UserDataSvc_2c24c| Status: Running
+Service:WpnUserService_2c24c| Status: Running
