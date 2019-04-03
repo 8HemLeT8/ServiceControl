@@ -1,5 +1,5 @@
 ________________________________________________________________________________________________________
-Check time: 2019-04-03 14:03:52
+Check time: 2019-04-03 14:40:23
 ________________________________________________________________________________________________________
 Service:Adobe Acrobat Update Service| Status: Running
 Service:Adobe Genuine Monitor Service| Status: Running
@@ -21,7 +21,7 @@ Service:AvastWscReporter| Status: Paused
 Service:ActiveX Installer (AxInstSV)| Status: Paused
 Service:BitLocker Drive Encryption Service| Status: Paused
 Service:Base Filtering Engine| Status: Running
-Service:Background Intelligent Transfer Service| Status: Paused
+Service:Background Intelligent Transfer Service| Status: Running
 Service:Background Tasks Infrastructure Service| Status: Running
 Service:Computer Browser| Status: Paused
 Service:Bluetooth Audio Gateway Service| Status: Paused
@@ -31,7 +31,7 @@ Service:Capability Access Manager Service| Status: Running
 Service:Connected Devices Platform Service| Status: Running
 Service:Certificate Propagation| Status: Paused
 Service:שירות 'לחץ והפעל' של Microsoft Office| Status: Running
-Service:Client License Service (ClipSVC)| Status: Paused
+Service:Client License Service (ClipSVC)| Status: Running
 Service:COM+ System Application| Status: Paused
 Service:CoreMessaging| Status: Running
 Service:Intel(R) Content Protection HECI Service| Status: Paused
@@ -73,7 +73,7 @@ Service:Windows Camera Frame Server| Status: Paused
 Service:GFNEX Service| Status: Running
 Service:Google Chrome Elevation Service| Status: Paused
 Service:GoPro Device Detection Service| Status: Running
-Service:Group Policy Client| Status: Paused
+Service:Group Policy Client| Status: Running
 Service:GraphicsPerfSvc| Status: Paused
 Service:Google Update Service (gupdate)| Status: Paused
 Service:Google Update Service (gupdatem)| Status: Paused
@@ -101,7 +101,7 @@ Service:TCP/IP NetBIOS Helper| Status: Running
 Service:Intel(R) Management and Security Application Local Management Service| Status: Running
 Service:Local Session Manager| Status: Running
 Service:Language Experience Service| Status: Paused
-Service:LxssManager| Status: Paused
+Service:LxssManager| Status: Running
 Service:Downloaded Maps Manager| Status: Paused
 Service:Windows Defender Firewall| Status: Running
 Service:Distributed Transaction Coordinator| Status: Paused
@@ -232,7 +232,7 @@ Service:Windows Biometric Service| Status: Paused
 Service:Windows Connection Manager| Status: Running
 Service:Windows Connect Now - Config Registrar| Status: Paused
 Service:Diagnostic Service Host| Status: Running
-Service:Diagnostic System Host| Status: Paused
+Service:Diagnostic System Host| Status: Running
 Service:Windows Defender Antivirus Network Inspection Service| Status: Paused
 Service:WebClient| Status: Paused
 Service:Windows Event Collector| Status: Paused
@@ -248,7 +248,7 @@ Service:Windows Remote Management (WS-Management)| Status: Paused
 Service:Wireless Keyboard 850 Notification Service| Status: Running
 Service:Windows Insider Service| Status: Paused
 Service:WLAN AutoConfig| Status: Running
-Service:Microsoft Account Sign-in Assistant| Status: Running
+Service:Microsoft Account Sign-in Assistant| Status: Paused
 Service:Local Profile Assistant Service| Status: Paused
 Service:WMI Performance Adapter| Status: Paused
 Service:Windows Media Player Network Sharing Service| Status: Running
@@ -258,7 +258,7 @@ Service:Portable Device Enumerator Service| Status: Paused
 Service:Windows Push Notifications System Service| Status: Running
 Service:Security Center| Status: Running
 Service:Windows Search| Status: Running
-Service:Windows Update| Status: Paused
+Service:Windows Update| Status: Running
 Service:WWAN AutoConfig| Status: Paused
 Service:Xbox Game Monitoring| Status: Paused
 Service:Xbox Live Auth Manager| Status: Paused
@@ -266,15 +266,15 @@ Service:Xbox Live Game Save| Status: Paused
 Service:Xbox Accessory Management Service| Status: Paused
 Service:Xbox Live Networking Service| Status: Paused
 Service:Intel(R) PROSet/Wireless Zero Configuration Service| Status: Running
-Service:BcastDVRUserService_2c24c| Status: Paused
-Service:BluetoothUserService_2c24c| Status: Paused
-Service:CDPUserSvc_2c24c| Status: Running
-Service:DevicePickerUserSvc_2c24c| Status: Paused
-Service:DevicesFlowUserSvc_2c24c| Status: Paused
-Service:MessagingService_2c24c| Status: Paused
-Service:OneSyncSvc_2c24c| Status: Running
-Service:PimIndexMaintenanceSvc_2c24c| Status: Running
-Service:PrintWorkflowUserSvc_2c24c| Status: Paused
-Service:UnistoreSvc_2c24c| Status: Running
-Service:UserDataSvc_2c24c| Status: Running
-Service:WpnUserService_2c24c| Status: Running
+Service:BcastDVRUserService_2c583| Status: Paused
+Service:BluetoothUserService_2c583| Status: Paused
+Service:CDPUserSvc_2c583| Status: Running
+Service:DevicePickerUserSvc_2c583| Status: Paused
+Service:DevicesFlowUserSvc_2c583| Status: Paused
+Service:MessagingService_2c583| Status: Paused
+Service:OneSyncSvc_2c583| Status: Running
+Service:PimIndexMaintenanceSvc_2c583| Status: Running
+Service:PrintWorkflowUserSvc_2c583| Status: Paused
+Service:UnistoreSvc_2c583| Status: Running
+Service:UserDataSvc_2c583| Status: Running
+Service:WpnUserService_2c583| Status: Running

@@ -1,8 +1,11 @@
+from __future__ import print_function
+
 import difflib
 import time
 import datetime
+
         
-class fileHandler:
+class actions:
         def detectChanges(file1,file2,tosave):
                 now = datetime.datetime.now()
                 with open(file1) as a, open(file2) as b:

@@ -9999,3 +9999,47 @@ ________________________________________________________________________________
 - Check time: 2019-04-03 14:03:16
 + Check time: 2019-04-03 14:03:52
 
+________________________________________________________________________________________________________
+Check time: 2019-04-03 14:40:23
+________________________________________________________________________________________________________
+- Check time: 2019-04-03 14:03:16
++ Check time: 2019-04-03 14:40:23
+- Service:Background Intelligent Transfer Service| Status: Paused
++ Service:Background Intelligent Transfer Service| Status: Running
+- Service:Client License Service (ClipSVC)| Status: Paused
++ Service:Client License Service (ClipSVC)| Status: Running
+- Service:Group Policy Client| Status: Paused
++ Service:Group Policy Client| Status: Running
+- Service:LxssManager| Status: Paused
++ Service:LxssManager| Status: Running
+- Service:Diagnostic System Host| Status: Paused
++ Service:Diagnostic System Host| Status: Running
+- Service:Microsoft Account Sign-in Assistant| Status: Running
++ Service:Microsoft Account Sign-in Assistant| Status: Paused
+- Service:Windows Update| Status: Paused
++ Service:Windows Update| Status: Running
+- Service:BcastDVRUserService_2c24c| Status: Paused
++ Service:BcastDVRUserService_2c583| Status: Paused
+- Service:BluetoothUserService_2c24c| Status: Paused
++ Service:BluetoothUserService_2c583| Status: Paused
+- Service:CDPUserSvc_2c24c| Status: Running
++ Service:CDPUserSvc_2c583| Status: Running
+- Service:DevicePickerUserSvc_2c24c| Status: Paused
++ Service:DevicePickerUserSvc_2c583| Status: Paused
+- Service:DevicesFlowUserSvc_2c24c| Status: Paused
++ Service:DevicesFlowUserSvc_2c583| Status: Paused
+- Service:MessagingService_2c24c| Status: Paused
++ Service:MessagingService_2c583| Status: Paused
+- Service:OneSyncSvc_2c24c| Status: Running
++ Service:OneSyncSvc_2c583| Status: Running
+- Service:PimIndexMaintenanceSvc_2c24c| Status: Running
++ Service:PimIndexMaintenanceSvc_2c583| Status: Running
+- Service:PrintWorkflowUserSvc_2c24c| Status: Paused
++ Service:PrintWorkflowUserSvc_2c583| Status: Paused
+- Service:UnistoreSvc_2c24c| Status: Running
++ Service:UnistoreSvc_2c583| Status: Running
+- Service:UserDataSvc_2c24c| Status: Running
++ Service:UserDataSvc_2c583| Status: Running
+- Service:WpnUserService_2c24c| Status: Running
++ Service:WpnUserService_2c583| Status: Running
+
