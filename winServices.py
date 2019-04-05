@@ -1,8 +1,8 @@
 import win32con
 import win32service 
-from fileHandler import *
+import fileHandler
+import time
 import datetime
-import os
 from threads import *
 
 
@@ -25,11 +25,11 @@ class WinServices:
                 sl=open("serviceList.txt","a")
 
                 f.write("________________________________________________________________________________________________________\n")
-                f.write("Check time: "+ str(now)[:19]+"\n")
+                f.write("Check time: "+ str(now)[2:19]+"\n")
                 f.write("________________________________________________________________________________________________________\n")
                 
                 sl.write("________________________________________________________________________________________________________\n")
-                sl.write("Check time: "+ str(now)[:19]+"\n")
+                sl.write("Check time: "+ str(now)[2:19]+"\n")
                 sl.write("________________________________________________________________________________________________________\n")
 
                 for (status) in statuses:
@@ -50,20 +50,19 @@ class WinServices:
                 sl.close()
 
 class winMonitor:
-    def winMonitorState(self,x):
+    def winMonitorState(x):
         myThread=inputThread()
         myThread.start()
-        if(os.name=='nt'):
+        a=fileHandler.actions()
 
-                while myThread.is_alive:
+        while myThread.is_alive:
 
-                        print("???")
-                        WinServices.ListServices("new.txt","w")
-                        actions.detectChanges("new.txt","old.txt",True)
-                        while x>0:
-                                if myThread.is_alive==False:
-                                        return
-                                time.sleep(1)
-                                x-=1
-                        WinServices.ListServices("old.txt","w")
-                        actions.detectChanges("old.txt","new.txt",True)
+                WinServices.ListServices("new.txt","w")
+                a.detectChanges("new.txt","old.txt",True)
+                while x>0:
+                        if myThread.is_alive==False:
+                                return
+                        time.sleep(1)
+                        x-=1
+                WinServices.ListServices("old.txt","w")
+                a.detectChanges("old.txt","new.txt",True)

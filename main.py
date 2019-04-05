@@ -1,10 +1,25 @@
-import manualMode,fileHandler
+import manualMode,fileHandler,os
+
 class main:
+    a=fileHandler.actions()
+    mm=manualMode.manual()
+    if os.name=='nt':
+        import winServices
+        
+        winServices.winMonitor.winMonitorState(600)
+        #a.clear("serviceList.txt")
+        #mm.manualState("19-04-05 17:01:23","19-04-03 18:16:31")
 
-  #  if(os.name=='nt'):
 
-    #n.manualState("09-21-19 12:50:59","01-01-00 17:45:59")
-    fileHandler.actions.clear("serviceList.txt")
+    elif os.name=='posix':
+        import lnxServices
+        m=lnxServices.lnxMonitor()
+        #m.lnxMonitorState(600)
+        #a.clear("serviceList.txt")
+        mm.manualState("19-04-05 17:01:23","19-04-03 18:16:31")
+
+
+
 
 
 

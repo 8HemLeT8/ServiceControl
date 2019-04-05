@@ -6,7 +6,7 @@ class inputThread(threading.Thread):
 
     def run(self):
         while 1:
-            userInput=input("to stop type STOP\n")
+            userInput=str(input("to stop type STOP\n"))
             if (userInput=="STOP"):
                 self.is_alive=False
                 return

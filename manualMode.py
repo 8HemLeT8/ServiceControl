@@ -1,8 +1,7 @@
 from __future__ import print_function
-from lnxServices import *
-from winServices import *
+import datetime
 import time
-from fileHandler import *
+import fileHandler
 import os
 from threads import *
 
@@ -11,9 +10,10 @@ from threads import *
 
 class manual:
     def manualState(self,datetime1,datetime2):
+        a=fileHandler.actions()    
         try:
-                datetime.datetime.strptime(datetime1,'%m-%d-%y %H:%M:%S')
-                datetime.datetime.strptime(datetime2,'%m-%d-%y %H:%M:%S')
+                datetime.datetime.strptime(datetime1,'%y-%m-%d %H:%M:%S')
+                datetime.datetime.strptime(datetime2,'%y-%m-%d %H:%M:%S')
         except:
                 print("Make sure the DateTime is of the format: MM-DD-YY HH:MM:SS")
                 exit()
@@ -37,6 +37,5 @@ class manual:
         if flag2==False:
                 print("No data for the second DateTime!")
                 exit() 
-        actions.detectChanges("file1.txt","file2.txt",False)
+        a.detectChanges("file1.txt","file2.txt",False)
         sl.close()
-        file.close()

@@ -6,7 +6,7 @@ import datetime
 
         
 class actions:
-        def detectChanges(file1,file2,tosave):
+        def detectChanges(self,file1,file2,tosave):
                 now = datetime.datetime.now()
                 with open(file1) as a, open(file2) as b:
                         
@@ -33,7 +33,7 @@ class actions:
                                 print(''.join(x for x in diff if (x[0] is not ' ' and x[0] is not '?'))) 
                         
                 
-        def clear(file):
+        def clear(self,file):
                 f=open(file,"w")
                 f.write("")
                 print("The file: "+f.name+" cleared.")
