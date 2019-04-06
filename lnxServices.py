@@ -15,13 +15,19 @@ class LnxServices:
         cmd1 = Popen(["service","--status-all"],stdout=PIPE,stderr=PIPE)
         stdout = cmd1.communicate()[0]
         cmd1.stdout.close()
+        now = datetime.datetime.now()
+
         services = stdout.split('\n')
+        
         with open(file, action) as f:
+            f.write("________________________________________________________________________________________________________\n")
+            f.write("Check time: "+ str(now)[2:19]+"\n")
+            f.write("________________________________________________________________________________________________________\n")
             for item in services[:-1]:
                 if item[3]=="+":
                     print >> f, (item+"\n")
     
-    #listServices("file1.txt","w")
+   
         
 
 class lnxMonitor:
@@ -30,10 +36,9 @@ class lnxMonitor:
         myThread.start()
         l=LnxServices()
         a=fileHandler.actions()
-        print("Linuxxx")
+        temp=x
         while myThread.is_alive:
-
-                    print("???")
+                    x=temp
                     l.listServices("new.txt","w")
                     a.detectChanges("new.txt","old.txt",True)
                     while x>0:

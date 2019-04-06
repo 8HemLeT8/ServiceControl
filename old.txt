@@ -1,122 +1,13 @@
 ________________________________________________________________________________________________________
-Check time: 19-04-03 18:11:30
+Check time: 19-04-06 22:13:20
 ________________________________________________________________________________________________________
-Service: Adobe Acrobat Update Service| Status: Running
-Service: Adobe Genuine Monitor Service| Status: Running
-Service: Adobe Genuine Software Integrity Service| Status: Running
-Service: AMD External Events Utility| Status: Running
-Service: Application Information| Status: Running
-Service: AppX Deployment Service (AppXSVC)| Status: Running
-Service: aswbIDSAgent| Status: Running
-Service: Windows Audio Endpoint Builder| Status: Running
-Service: Windows Audio| Status: Running
-Service: Avast Antivirus| Status: Running
-Service: Base Filtering Engine| Status: Running
-Service: Background Intelligent Transfer Service| Status: Running
-Service: Background Tasks Infrastructure Service| Status: Running
-Service: Capability Access Manager Service| Status: Running
-Service: Connected Devices Platform Service| Status: Running
-Service: שירות 'לחץ והפעל' של Microsoft Office| Status: Running
-Service: CoreMessaging| Status: Running
-Service: Cryptographic Services| Status: Running
-Service: DCOM Server Process Launcher| Status: Running
-Service: Device Association Service| Status: Running
-Service: DHCP Client| Status: Running
-Service: Connected User Experiences and Telemetry| Status: Running
-Service: DNS Client| Status: Running
-Service: Delivery Optimization| Status: Running
-Service: Diagnostic Policy Service| Status: Running
-Service: DTS APO Service| Status: Running
-Service: Data Usage| Status: Running
-Service: Windows Event Log| Status: Running
-Service: COM+ Event System| Status: Running
-Service: Intel(R) PROSet/Wireless Event Log| Status: Running
-Service: Windows Font Cache Service| Status: Running
-Service: Windows Presentation Foundation Font Cache 3.0.0.0| Status: Running
-Service: GFNEX Service| Status: Running
-Service: GoPro Device Detection Service| Status: Running
-Service: Human Interface Device Service| Status: Running
-Service: Intel(R) HD Graphics Control Panel Service| Status: Running
-Service: Intel(R) Capability Licensing Service Interface| Status: Running
-Service: Intel(R) ME Service| Status: Running
-Service: IP Helper| Status: Running
-Service: Intel(R) Dynamic Application Loader Host Interface Service| Status: Running
-Service: CNG Key Isolation| Status: Running
-Service: Server| Status: Running
-Service: Workstation| Status: Running
-Service: Geolocation Service| Status: Running
-Service: Windows License Manager Service| Status: Running
-Service: TCP/IP NetBIOS Helper| Status: Running
-Service: Intel(R) Management and Security Application Local Management Service| Status: Running
-Service: Local Session Manager| Status: Running
-Service: LxssManager| Status: Running
-Service: Windows Defender Firewall| Status: Running
-Service: Network Connection Broker| Status: Running
-Service: Network List Service| Status: Running
-Service: Microsoft Passport Container| Status: Running
-Service: Microsoft Passport| Status: Running
-Service: Network Location Awareness| Status: Running
-Service: Network Store Interface Service| Status: Running
-Service: Program Compatibility Assistant Service| Status: Running
-Service: Plug and Play| Status: Running
-Service: IPsec Policy Agent| Status: Running
-Service: Power| Status: Running
-Service: User Profile Service| Status: Running
-Service: Remote Access Connection Manager| Status: Running
-Service: Razer Chroma SDK Service| Status: Running
-Service: Razer Game Scanner| Status: Running
-Service: Intel(R) PROSet/Wireless Registry Service| Status: Running
-Service: Radio Management Service| Status: Running
-Service: RPC Endpoint Mapper| Status: Running
-Service: Remote Procedure Call (RPC)| Status: Running
-Service: Security Accounts Manager| Status: Running
-Service: Task Scheduler| Status: Running
-Service: Windows Defender Security Center Service| Status: Running
-Service: Windows Remediation Service| Status: Running
-Service: Payments and NFC/SE Manager| Status: Running
-Service: System Event Notification Service| Status: Running
-Service: System Guard Runtime Monitor Broker| Status: Running
-Service: Shell Hardware Detection| Status: Running
-Service: SMITS| Status: Running
-Service: Print Spooler| Status: Running
-Service: SSDP Discovery| Status: Running
-Service: Secure Socket Tunneling Protocol Service| Status: Running
-Service: State Repository Service| Status: Running
-Service: Windows Image Acquisition (WIA)| Status: Running
-Service: Storage Service| Status: Running
-Service: SynTPEnh Caller Service| Status: Running
-Service: Superfetch| Status: Running
-Service: System Events Broker| Status: Running
-Service: Touch Keyboard and Handwriting Panel Service| Status: Running
-Service: Telephony| Status: Running
-Service: TEMPRO Service| Status: Running
-Service: Themes| Status: Running
-Service: Time Broker| Status: Running
-Service: TMachInfo| Status: Running
-Service: TOSHIBA Optical Disc Drive Service| Status: Running
-Service: Web Account Manager| Status: Running
-Service: TOSHIBA eco Utility Service| Status: Running
-Service: Distributed Link Tracking Client| Status: Running
-Service: Update service| Status: Running
-Service: UPnP Device Host| Status: Running
-Service: User Manager| Status: Running
-Service: Update Orchestrator Service| Status: Running
-Service: Credential Manager| Status: Running
-Service: Windows Connection Manager| Status: Running
-Service: Diagnostic Service Host| Status: Running
-Service: WinHTTP Web Proxy Auto-Discovery Service| Status: Running
-Service: Windows Management Instrumentation| Status: Running
-Service: Wireless Keyboard 850 Notification Service| Status: Running
-Service: WLAN AutoConfig| Status: Running
-Service: Microsoft Account Sign-in Assistant| Status: Running
-Service: Windows Media Player Network Sharing Service| Status: Running
-Service: Windows Push Notifications System Service| Status: Running
-Service: Security Center| Status: Running
-Service: Windows Search| Status: Running
-Service: Intel(R) PROSet/Wireless Zero Configuration Service| Status: Running
-Service: CDPUserSvc_2c583| Status: Running
-Service: OneSyncSvc_2c583| Status: Running
-Service: PimIndexMaintenanceSvc_2c583| Status: Running
-Service: UnistoreSvc_2c583| Status: Running
-Service: UserDataSvc_2c583| Status: Running
-Service: WpnUserService_2c583| Status: Running
+ [ + ]  irqbalance
+
+ [ + ]  iscsid
+
+ [ + ]  lvm2-lvmetad
+
+ [ + ]  lvm2-lvmpolld
+
+ [ + ]  open-iscsi
+

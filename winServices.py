@@ -54,15 +54,15 @@ class winMonitor:
         myThread=inputThread()
         myThread.start()
         a=fileHandler.actions()
-
+        temp=x
         while myThread.is_alive:
-
-                WinServices.ListServices("new.txt","w")
-                a.detectChanges("new.txt","old.txt",True)
+                x=temp
+                WinServices.ListServices("file2.txt","w")
+                a.detectChanges("file2.txt","file1.txt",True)
                 while x>0:
                         if myThread.is_alive==False:
                                 return
                         time.sleep(1)
                         x-=1
-                WinServices.ListServices("old.txt","w")
-                a.detectChanges("old.txt","new.txt",True)
+                WinServices.ListServices("file1.txt","w")
+                a.detectChanges("file1.txt","file2.txt",True)

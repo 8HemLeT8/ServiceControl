@@ -5,7 +5,6 @@ import fileHandler
 import os
 from threads import *
 
-#PROBLEM IS LINUX CANT WORK WITH IMPORT WIN32 FIX IT!!!
          
 
 class manual:
@@ -16,7 +15,7 @@ class manual:
                 datetime.datetime.strptime(datetime2,'%y-%m-%d %H:%M:%S')
         except:
                 print("Make sure the DateTime is of the format: MM-DD-YY HH:MM:SS")
-                exit()
+                return
         
         sl=open("serviceList.txt","r")
         data=sl.read()
