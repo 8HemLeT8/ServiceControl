@@ -1,5 +1,5 @@
 from __future__ import print_function
-
+import os,stat
 import difflib
 import time
 import datetime
@@ -25,6 +25,8 @@ class actions:
                                 print(''.join(x for x in diff if (x[0] is not ' ' and x[0] is not '?')), file=sl) 
                                 diff = d.compare(blines, alines)
                                 print (''.join(x for x in diff if (x[0] is not ' ' and x[0] is not '?')))
+                                
+                                os.chmod(sl.name,stat.S_IREAD)
                                 sl.close()
 
                         else:
@@ -37,3 +39,4 @@ class actions:
                 f=open(file,"w")
                 f.write("")
                 print("The file: "+f.name+" cleared.")
+                f.close()

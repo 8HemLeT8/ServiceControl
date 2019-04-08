@@ -1,13 +1,13 @@
 ________________________________________________________________________________________________________
-Check time: 19-04-06 22:56:24
+Check time: 19-04-08 22:55:04
 ________________________________________________________________________________________________________
- [ + ]  irqbalance
+Service: irqbalance | Status: Running
 
- [ + ]  iscsid
+Service: iscsid | Status: Running
 
- [ + ]  lvm2-lvmetad
+Service: lvm2-lvmetad | Status: Running
 
- [ + ]  lvm2-lvmpolld
+Service: lvm2-lvmpolld | Status: Running
 
- [ + ]  open-iscsi
+Service: open-iscsi | Status: Running
 

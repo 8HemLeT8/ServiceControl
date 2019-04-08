@@ -1,5 +1,6 @@
 import win32con
 import win32service 
+import os,stat
 import fileHandler
 import time
 import datetime
@@ -46,6 +47,10 @@ class WinServices:
 
                         else:
                                 print ("Service: "+status[1]+"| Status: "+str(status[2][1])+"\n")        
+                
+                os.chmod(sl.name,stat.S_IREAD)
+                os.chmod(sl.name,stat.S_IREAD)
+
                 f.close()
                 sl.close()
 

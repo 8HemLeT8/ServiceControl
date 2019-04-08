@@ -7,7 +7,6 @@ class main:
 
     while 1:
         print("Hello and Welcome!\n", end="__________________________\n")
-        #try:
 
         inp=raw_input("Choose mode: \n\
 [ * ] for monitor mode press (1)\n\
@@ -43,5 +42,4 @@ class main:
             mm.manualState(ts1,ts2)
 
        
-
             
